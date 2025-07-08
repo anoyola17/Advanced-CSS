@@ -1,0 +1,26 @@
+/* body */
+body{
+background-color: Navy;
+padding: 10px 10px;
+padding-top: 5px;
+}
+
+/* flag below */
+/** stars **/
+img{
+    float: left;
+    width: 650px;
+    height: 420px;
+}
+
+/** red background **/
+.row1, .row3, .row5, .row7, .row9, .row11, .row13{
+    background: #BB2533; 
+    padding: 30px;
+}
+
+/** white background **/
+.row2, .row4, .row6, .row8, .row10, .row12{
+    background: white;
+    padding: 30px;
+}

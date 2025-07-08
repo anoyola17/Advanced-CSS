@@ -1,0 +1,90 @@
+
+/* body */
+body{
+background-color: Navy;
+padding: 10px 10px;
+padding-top: 5px;
+}
+
+/* grid colums/rows */
+#grid {
+  display: grid;
+  height: 800px;
+  grid-template-columns: 400px 400px 400px 400px;
+  grid-template-rows: 400px;
+  padding: 20px 20px;
+}
+
+/* individual boxes */
+#item1 {
+  background-color: WhiteSmoke; 
+}
+
+#item2 {
+  background-color: WhiteSmoke;
+  grid-column: 2;
+}
+
+#item3 {
+  background-color: WhiteSmoke;
+  grid-column: 3;
+}
+
+#item4 {
+  background-color: WhiteSmoke;
+  grid-column: 4;
+}
+
+#item5 {
+  background-color: WhiteSmoke;
+  grid-column: 2 / 1;
+}
+
+#item6 {
+  background-color: WhiteSmoke;
+  grid-column: 2 / 2;
+}
+
+#item7 {
+  background-color: WhiteSmoke;
+  grid-column: 3 / 4;
+}
+
+#item8 {
+  background-color: WhiteSmoke;
+  grid-column: 4 / 4;
+}
+
+/* title and description */
+.content {
+  text-align: center;
+}
+
+.content h3, p {
+  margin: 10px 90px;
+}
+
+/* images */
+.photo img{
+  width: 200px;
+  height: 200px;
+  padding: 10px 100px 
+}
+
+/* link style from buttons*/
+a {
+color: white;
+text-decoration: none;
+}
+
+/* buttons */
+#buttons{
+    width: 90px;
+    height: 35px;
+    padding: 5px;
+    margin-bottom: 40px;
+    font-family: "Product Sans" sans-serif;
+    background-color: red;
+    border: solid 0.1em red;
+    border-radius: 2.5em;
+}

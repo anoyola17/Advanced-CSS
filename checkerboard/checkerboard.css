@@ -1,0 +1,27 @@
+/* body */
+body{
+background-color: Navy;
+padding: 10px 10px;
+padding-top: 5px;
+}
+
+/* board */
+.board{
+  border: 1rem solid;
+  border-color: black ;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  width: 800px;
+  height: 800px;
+}
+
+.column {
+  width: 100px;
+  height: 100px;
+}
+
+.row {
+  width: 100px;
+  height: 100px;
+}
